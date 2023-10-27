@@ -42,6 +42,7 @@ app.use('/login', loginRouter);
 app.use('/toy', toyRouter);
 app.use('/figure', figureRouter);
 app.use('/robot', robotRouter);
+app.listen (process.env.PORT || 3001);
 
 app.use(function(req, res, next) {
   next(createError(404));
