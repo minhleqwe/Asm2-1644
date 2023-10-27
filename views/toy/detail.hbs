@@ -1,0 +1,14 @@
+<div class="container col-md-10">
+	<div class="row">
+		<div class="col-md-5">
+			<img src="{{toy.image}}" width="300" height="300" alt="this is student image">
+		</div>
+		<div class="col-md-7 card bg-warning">
+			<h1 class="text-center bg-success">Thông tin sinh viên</h1>
+			<h3>Họ tên: {{ toy.name }}</h3>
+			<h3>Ngày sinh: {{ dateofmanufacture toy.dob "DD-MM-YYYY"}}</h3>
+			<h3>Điểm GPA: {{ toy.price }}</h3>
+		</div>
+	</div>
+</div>
+
